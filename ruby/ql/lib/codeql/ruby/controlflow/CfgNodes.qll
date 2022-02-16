@@ -8,6 +8,7 @@ private import codeql.ruby.ast.internal.Literal
 private import ControlFlowGraph
 private import internal.ControlFlowGraphImpl
 private import internal.Splitting
+private import codeql.ruby.security.performance.RegExpTreeView as RETV
 
 /** An entry node for a given scope. */
 class EntryNode extends CfgNode, TEntryNode {
