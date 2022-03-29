@@ -13,6 +13,11 @@ endpoints
 | index.js:15:17:15:32 | req.body.isAdmin | SqlInjection | isExcludedFromEndToEndEvaluation | false | boolean |
 | index.js:15:17:15:32 | req.body.isAdmin | SqlInjection | notASinkReason | LoggerMethod | string |
 | index.js:15:17:15:32 | req.body.isAdmin | SqlInjection | sinkLabel | NotASink | string |
+| index.js:15:17:15:32 | req.body.isAdmin | StoredXss | hasFlowFromSource | false | boolean |
+| index.js:15:17:15:32 | req.body.isAdmin | StoredXss | isConstantExpression | false | boolean |
+| index.js:15:17:15:32 | req.body.isAdmin | StoredXss | isExcludedFromEndToEndEvaluation | false | boolean |
+| index.js:15:17:15:32 | req.body.isAdmin | StoredXss | notASinkReason | LoggerMethod | string |
+| index.js:15:17:15:32 | req.body.isAdmin | StoredXss | sinkLabel | NotASink | string |
 | index.js:15:17:15:32 | req.body.isAdmin | TaintedPath | hasFlowFromSource | true | boolean |
 | index.js:15:17:15:32 | req.body.isAdmin | TaintedPath | isConstantExpression | false | boolean |
 | index.js:15:17:15:32 | req.body.isAdmin | TaintedPath | isExcludedFromEndToEndEvaluation | false | boolean |
@@ -23,6 +28,11 @@ endpoints
 | index.js:15:17:15:32 | req.body.isAdmin | Xss | isExcludedFromEndToEndEvaluation | false | boolean |
 | index.js:15:17:15:32 | req.body.isAdmin | Xss | notASinkReason | LoggerMethod | string |
 | index.js:15:17:15:32 | req.body.isAdmin | Xss | sinkLabel | NotASink | string |
+| index.js:15:17:15:32 | req.body.isAdmin | XssThroughDom | hasFlowFromSource | false | boolean |
+| index.js:15:17:15:32 | req.body.isAdmin | XssThroughDom | isConstantExpression | false | boolean |
+| index.js:15:17:15:32 | req.body.isAdmin | XssThroughDom | isExcludedFromEndToEndEvaluation | false | boolean |
+| index.js:15:17:15:32 | req.body.isAdmin | XssThroughDom | notASinkReason | LoggerMethod | string |
+| index.js:15:17:15:32 | req.body.isAdmin | XssThroughDom | sinkLabel | NotASink | string |
 | index.js:20:13:20:31 | { 'isAdmin': true } | NosqlInjection | hasFlowFromSource | false | boolean |
 | index.js:20:13:20:31 | { 'isAdmin': true } | NosqlInjection | isConstantExpression | false | boolean |
 | index.js:20:13:20:31 | { 'isAdmin': true } | NosqlInjection | isExcludedFromEndToEndEvaluation | false | boolean |
