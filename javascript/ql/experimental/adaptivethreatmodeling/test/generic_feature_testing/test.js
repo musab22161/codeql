@@ -12,3 +12,9 @@
     o.m[x].p.m(endpoint);
     (await p)(endpoint);
 });
+
+function f(endpoint) {}
+
+const g = async () => undefined;
+
+const o = { m: () => undefined }
